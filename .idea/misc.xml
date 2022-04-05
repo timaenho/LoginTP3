@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/tomma/AndroidStudioProjects/TP3Login/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/tomma/AndroidStudioProjects/TP3Login/app/src/main/res/drawable/Gradient.xml" value="0.185" />
+        <entry key="..\:/Users/tomma/AndroidStudioProjects/TP3Login/app/src/main/res/drawable/button_shape.xml" value="0.185" />
+        <entry key="..\:/Users/tomma/AndroidStudioProjects/TP3Login/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/tomma/AndroidStudioProjects/TP3Login/app/src/main/res/layout/layout.xml" value="0.2" />
       </map>
     </option>
   </component>
