@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import android.widget.RadioButton
 import android.widget.TextView
 import androidx.navigation.findNavController
 
@@ -14,6 +15,7 @@ class login : Fragment() {
     lateinit var view1 : View
     lateinit var buttonLogin : Button
     lateinit var textRegister : TextView
+    lateinit var radioButton : RadioButton
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -25,6 +27,7 @@ class login : Fragment() {
 
         buttonLogin = view1.findViewById(R.id.buttonLogin)
         textRegister = view1.findViewById(R.id.textviewRegistrar)
+        radioButton = view1.findViewById(R.id.radioButton)
         return view1
     }
 
@@ -32,8 +35,14 @@ class login : Fragment() {
         super.onStart()
 
         buttonLogin.setOnClickListener {
-            val action2 = loginDirections.actionLoginToHomeAdmin()
-            view1.findNavController().navigate(action2)
+            if(radioButton.isChecked){
+                val action1 = loginDirections.actionLoginToHomeGuia()
+                view1.findNavController().navigate(action1)
+            }else{
+                val action1 = loginDirections.actionLoginToHomeTurista()
+                view1.findNavController().navigate(action1)
+            }
+
         }
 
         textRegister.setOnClickListener {

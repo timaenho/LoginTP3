@@ -3,6 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/tomma/AndroidStudioProjects/TP3Login - kopie/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/tomma/AndroidStudioProjects/TP3Login - kopie/app/src/main/res/layout/fragment_home_admin.xml" value="0.13991228070175438" />
+        <entry key="..\:/Users/tomma/AndroidStudioProjects/TP3Login - kopie/app/src/main/res/layout/fragment_home_guia.xml" value="0.13991228070175438" />
+        <entry key="..\:/Users/tomma/AndroidStudioProjects/TP3Login - kopie/app/src/main/res/layout/fragment_home_turista.xml" value="0.13991228070175438" />
+        <entry key="..\:/Users/tomma/AndroidStudioProjects/TP3Login - kopie/app/src/main/res/layout/fragment_login.xml" value="0.1" />
+        <entry key="..\:/Users/tomma/AndroidStudioProjects/TP3Login - kopie/app/src/main/res/layout/fragment_register.xml" value="0.25" />
         <entry key="..\:/Users/tomma/AndroidStudioProjects/TP3Login/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1335" />
         <entry key="..\:/Users/tomma/AndroidStudioProjects/TP3Login/app/src/main/res/drawable/Gradient.xml" value="0.185" />
         <entry key="..\:/Users/tomma/AndroidStudioProjects/TP3Login/app/src/main/res/drawable/button_shape.xml" value="0.185" />
